@@ -1,0 +1,37 @@
+{% extends 'main.html' %}
+{% block title %}
+<h1> Registration </h1>
+{% endblock %}
+{% block body %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <h3 class="flash">{{msg}}</h3>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <form class="form-container" action="{{ url_for('register_user') }}" method="POST">
+        <div class="container-logging">
+          <div class="logging-item">
+              <input type="text" name="register_username" placeholder="Username">
+          </div>
+          <div class="logging-item">
+              <input type="text" name="register_password" placeholder="Password">
+          </div>
+          <div class="logging-item">
+              <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </div>
+    </form>
+        <style>
+            .container-logging {
+                text-align: center;
+                margin-top: 100px;
+            }
+            .flash {
+                text-align: center;
+            }
+        </style>
+{% endblock %}
+
