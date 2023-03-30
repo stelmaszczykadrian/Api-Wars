@@ -1,0 +1,90 @@
+#background-image {
+    background-image: url("./images/starwars_bg.jpg");
+}
+
+#centerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#siteTitle {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#textColor {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+#previous-button{
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+#next-button {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#main-table {
+    background: rgba(29, 25, 23, 0.5);
+    margin-bottom: 30px;
+}
+
+
+#modal-table{
+    background: rgba(29, 25, 23, 0.5);
+}
+
+
+#redStyledButton{
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container-logging {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flash {
+    margin-top: 40px;
+    color: red;
+    text-align: center;
+
+}
+
+.logging-item {
+    margin-bottom: 20px;
+}
+
+
+#signedUser {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}

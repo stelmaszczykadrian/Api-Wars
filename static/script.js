@@ -78,6 +78,7 @@ function noteToTable(planet) {
             let residents=planet[header];
             if (residents.amount > 1) {
                 let button =document.createElement('button');
+                button.style.backgroundColor="red";
                 button.dataset.toggle = "modal";
                 button.dataset.target = ".bd-example-modal-xl";
                 button.innerText = `${residents.amount} resident(s).`;
@@ -94,8 +95,6 @@ function noteToTable(planet) {
         }
         tr.appendChild(td);
     }
-    let td = document.createElement('td');
-    tr.appendChild(td);
     document.querySelector('table#main-table tbody').appendChild(tr);
 }
 

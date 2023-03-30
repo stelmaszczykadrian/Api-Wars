@@ -1,6 +1,8 @@
 {% extends 'main.html' %}
 {% block title %}
-<h1> Registration </h1>
+    <div id="siteTitle">
+        <h1> Registration </h1>
+    </div>
 {% endblock %}
 {% block body %}
     {% with messages = get_flashed_messages() %}
@@ -20,18 +22,9 @@
               <input type="text" name="register_password" placeholder="Password">
           </div>
           <div class="logging-item">
-              <button type="submit" class="btn btn-primary">Register</button>
+              <button id="redStyledButton" type="submit" class="btn btn-primary">Register</button>
           </div>
         </div>
     </form>
-        <style>
-            .container-logging {
-                text-align: center;
-                margin-top: 100px;
-            }
-            .flash {
-                text-align: center;
-            }
-        </style>
 {% endblock %}
 

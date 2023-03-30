@@ -1,4 +1,3 @@
-# put your code here
 from flask import Flask, render_template, request, url_for, redirect, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
 
