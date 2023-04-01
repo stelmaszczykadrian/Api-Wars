@@ -28,5 +28,5 @@ The list of available features includes:
 
 ## :rocket: Screenshoots
 
-![apiwars](https://user-images.githubusercontent.com/106514178/228832397-252443d3-4b3a-4011-84c8-c8fafb320880.jpg)
+![apiwars](https://user-images.githubusercontent.com/106514178/229313417-d3948c7c-cb60-4eae-848f-164c0a822364.jpg)
 ![apiwarsModal](https://user-images.githubusercontent.com/106514178/228832807-8e08b98b-b1f9-4460-9239-548f7ce794d5.jpg)
